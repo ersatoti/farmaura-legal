@@ -4,4 +4,4 @@
 - [Suporte](suporte)
 
 **Pacote:** br.com.farmaura  
-**Contato:** ersatoti@gmail.com
+**Contato:** contato@erasinfo.com.br

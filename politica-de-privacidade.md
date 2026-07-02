@@ -117,7 +117,7 @@ Podemos atualizar esta Política periodicamente. Notificaremos sobre alteraçõe
 
 Para dúvidas, solicitações de dados ou exercício de direitos LGPD:
 
-**E-mail:** ersatoti@gmail.com  
+**E-mail:** contato@erasinfo.com.br  
 **Aplicativo:** Aura App  
 **Pacote:** br.com.farmaura
 
