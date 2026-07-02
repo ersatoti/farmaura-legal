@@ -1,0 +1,171 @@
+---
+layout: null
+permalink: /suporte
+title: Suporte — Aura App
+---
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suporte — Aura App</title>
+  <meta name="description" content="Central de suporte do Aura App. Fale com a gente ou veja as perguntas frequentes.">
+  <style>
+    :root {
+      --bg: #07070f;
+      --card: #14142a;
+      --card-border: #2a2a50;
+      --primary: #7c3aed;
+      --primary-light: #a855f7;
+      --accent: #f59e0b;
+      --text-primary: #f0eeff;
+      --text-secondary: #7c7aa0;
+      --text-muted: #4a4870;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at 50% -10%, #1a1035 0%, var(--bg) 55%);
+      color: var(--text-primary);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    .header { text-align: center; margin-bottom: 32px; }
+    .icon {
+      width: 88px;
+      height: 88px;
+      border-radius: 22px;
+      box-shadow: 0 0 0 1.5px var(--card-border), 0 8px 30px rgba(124, 58, 237, 0.45);
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 900;
+      margin: 0 0 8px;
+      letter-spacing: 0.3px;
+    }
+    .subtitle {
+      color: var(--text-secondary);
+      font-size: 15px;
+      margin: 0;
+    }
+    .card {
+      background: var(--card);
+      border: 1.5px solid var(--card-border);
+      border-radius: 20px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    .email-btn {
+      display: block;
+      text-align: center;
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 16px;
+      padding: 16px;
+      border-radius: 14px;
+      box-shadow: 0 4px 24px rgba(124, 58, 237, 0.55);
+      transition: transform 0.15s ease;
+    }
+    .email-btn:active { transform: scale(0.98); }
+    .response-time {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 13px;
+      margin-top: 12px;
+    }
+    h2 {
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--primary-light);
+      margin: 0 0 16px;
+    }
+    details {
+      border-bottom: 1px solid var(--card-border);
+      padding: 14px 0;
+    }
+    details:last-child { border-bottom: none; }
+    summary {
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 15px;
+      color: var(--text-primary);
+      list-style: none;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::before {
+      content: "✦ ";
+      color: var(--accent);
+    }
+    details p {
+      color: var(--text-secondary);
+      font-size: 14px;
+      margin: 10px 0 0;
+    }
+    .footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 12px;
+      margin-top: 32px;
+    }
+    .footer a { color: var(--text-secondary); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <img class="icon" src="assets/icon.png" alt="Ícone do Aura App">
+      <h1>Suporte — Aura App</h1>
+      <p class="subtitle">Precisa de ajuda? Estamos aqui ✦</p>
+    </div>
+
+    <div class="card">
+      <a class="email-btn" href="mailto:ersatoti@gmail.com">✉️ ersatoti@gmail.com</a>
+      <p class="response-time">Respondemos em até 2 dias úteis</p>
+    </div>
+
+    <div class="card">
+      <h2>Perguntas frequentes</h2>
+
+      <details>
+        <summary>Esqueci minha senha, e agora?</summary>
+        <p>Na tela de login, toque em "Esqueci minha senha" e siga o link enviado ao seu e-mail.</p>
+      </details>
+
+      <details>
+        <summary>Como excluo minha conta e meus dados?</summary>
+        <p>Vá em Perfil → Configurações → Excluir conta. A exclusão é imediata e apaga todos os seus dados do Aura App.</p>
+      </details>
+
+      <details>
+        <summary>Um anúncio parece impróprio ou com bug, o que faço?</summary>
+        <p>Envie um e-mail com uma descrição do que aconteceu (e um print, se possível) para o endereço acima.</p>
+      </details>
+
+      <details>
+        <summary>Encontrei um desafio ou conteúdo inadequado criado por outro usuário</summary>
+        <p>Envie o nome do desafio e do usuário para o e-mail de suporte — removemos conteúdo que viole nossos Termos de Uso.</p>
+      </details>
+
+      <details>
+        <summary>Quero sugerir uma funcionalidade nova</summary>
+        <p>Adoraríamos ouvir! Manda pra gente pelo e-mail de suporte.</p>
+      </details>
+    </div>
+
+    <p class="footer">
+      Veja também nossa <a href="politica-de-privacidade">Política de Privacidade</a><br>
+      Pacote: br.com.farmaura
+    </p>
+  </div>
+</body>
+</html>
