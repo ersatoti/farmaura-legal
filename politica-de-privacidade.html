@@ -136,21 +136,22 @@ title: Política de Privacidade — Aura App
       <p class="subtitle">Aura App ✦</p>
     </div>
 
-    <p class="updated">Última atualização: 26 de maio de 2026</p>
+    <p class="updated">Última atualização: 07 de julho de 2026</p>
 
     <div class="card">
       <p class="intro">
-        Esta Política de Privacidade descreve como o <strong>Aura App</strong> ("nós", "nosso") coleta, usa e protege as informações dos usuários ("você") ao utilizar nosso aplicativo.
+        Esta Política de Privacidade descreve como o <strong>Aura App</strong> ("nós", "nosso") coleta, usa e protege as informações dos usuários ("você") ao utilizar nosso aplicativo para Android e iOS.
       </p>
 
       <h2>1. Informações que Coletamos</h2>
 
       <h3>1.1 Dados de Conta</h3>
-      <p>Ao criar uma conta via Google, Apple ou e-mail/senha, coletamos:</p>
+      <p>Ao criar uma conta via Google Sign-In, Sign in with Apple ou e-mail/senha, coletamos:</p>
       <ul>
         <li>Nome de exibição</li>
-        <li>Endereço de e-mail</li>
-        <li>Foto de perfil (opcional)</li>
+        <li>Endereço de e-mail (no caso do Sign in with Apple, pode ser um e-mail de encaminhamento privado gerado pela Apple)</li>
+        <li>Foto de perfil (opcional, quando fornecida pelo provedor de login)</li>
+        <li>Data de nascimento, coletada no cadastro para verificar a idade mínima de 13 anos e, entre 13 e 17 anos, exigir a confirmação de autorização dos pais ou responsável legal</li>
       </ul>
 
       <h3>1.2 Dados de Uso</h3>
@@ -160,12 +161,14 @@ title: Política de Privacidade — Aura App
         <li>Avatar e nome escolhidos no perfil</li>
         <li>Lista de amigos adicionados no app</li>
         <li>Desafios criados e curtidas recebidas/dadas</li>
+        <li>Usuários bloqueados por você (para impedir que voltem a te adicionar ou aparecer para você)</li>
+        <li>Denúncias que você enviar sobre outros usuários ou conteúdos (motivo selecionado e identificador do conteúdo/usuário denunciado)</li>
       </ul>
 
       <h3>1.3 Dados de Dispositivo</h3>
       <ul>
         <li>Token de notificação push (para envio de notificações)</li>
-        <li>Dados de localização aproximada (somente quando a funcionalidade "Guerreiros Próximos" está ativa e com sua permissão)</li>
+        <li>Dados de localização aproximada, coletados apenas enquanto o app está em uso (nunca em segundo plano) e somente quando a funcionalidade "Guerreiros Próximos" está ativa e com sua permissão</li>
       </ul>
 
       <h3>1.4 Câmera e Microfone</h3>
@@ -174,6 +177,14 @@ title: Política de Privacidade — Aura App
         <li>O microfone é utilizado exclusivamente para detecção de áudio no "Desafio Six Seven"</li>
         <li><strong>Nenhuma imagem, vídeo ou áudio é gravado ou armazenado em nossos servidores</strong></li>
       </ul>
+
+      <h3>1.5 Denúncias, Bloqueio e Moderação de Conteúdo</h3>
+      <p>O Aura App permite que você:</p>
+      <ul>
+        <li><strong>Bloqueie</strong> outro usuário a qualquer momento (na tela Amigos ou no seu Perfil, em "Usuários bloqueados"). Isso remove a amizade existente e impede que a pessoa bloqueada volte a te adicionar ou te encontrar.</li>
+        <li><strong>Denuncie</strong> um usuário ou um desafio publicado, escolhendo um motivo (conteúdo impróprio, assédio, spam, perfil falso, entre outros).</li>
+      </ul>
+      <p>Desafios publicados por outros usuários também passam por moderação automática de texto (título/descrição) antes de ficarem visíveis. Denúncias são analisadas pela nossa equipe e podem resultar na remoção do conteúdo e/ou suspensão da conta responsável. Para casos urgentes ou não resolvidos pelo fluxo de denúncia no app, entre em contato pelo e-mail no final desta página.</p>
 
       <h2>2. Como Usamos suas Informações</h2>
       <p>Utilizamos seus dados para:</p>
@@ -219,21 +230,25 @@ title: Política de Privacidade — Aura App
       <ul>
         <li>Dados de conta: mantidos enquanto a conta estiver ativa</li>
         <li>Dados de uso: mantidos por até 12 meses após inatividade</li>
-        <li>Após exclusão de conta: dados removidos em até 30 dias</li>
+        <li>Denúncias enviadas: mantidas para fins de moderação e auditoria, mesmo após a exclusão da conta do denunciante ou do denunciado</li>
+        <li>Após exclusão de conta: os demais dados são removidos em até 30 dias</li>
       </ul>
 
       <h2>7. Segurança</h2>
       <p>Adotamos medidas técnicas e organizacionais para proteger seus dados, incluindo:</p>
       <ul>
-        <li>Autenticação via provedores confiáveis (Google, Apple) ou e-mail/senha</li>
+        <li>Autenticação via Google, Apple (OAuth 2.0) ou e-mail/senha com verificação de e-mail</li>
         <li>Regras de segurança no Firestore</li>
         <li>Comunicação criptografada (HTTPS/TLS)</li>
         <li>Acesso restrito por funções (roles)</li>
       </ul>
 
-      <h2>8. Crianças</h2>
+      <h2>8. Crianças e Adolescentes</h2>
       <p>
-        O Aura App é destinado a usuários com <strong>13 anos ou mais</strong>. Não coletamos intencionalmente dados de crianças menores de 13 anos. Se identificarmos tal coleta, os dados serão excluídos imediatamente.
+        O Aura App é destinado a usuários com <strong>13 anos ou mais</strong>. No cadastro, coletamos a data de nascimento e bloqueamos o acesso de quem informar idade inferior a 13 anos. Usuários entre 13 e 17 anos precisam confirmar, através de um checkbox obrigatório, que têm autorização dos pais ou responsável legal para usar o Aplicativo.
+      </p>
+      <p>
+        Ainda assim, não temos como verificar de forma documental a idade informada. Se identificarmos ou formos notificados de que um usuário menor de 13 anos burlou essa verificação, os dados da conta serão excluídos imediatamente. Pais ou responsáveis que queiram solicitar a remoção dos dados de um menor podem entrar em contato pelo e-mail no final desta página.
       </p>
 
       <h2>9. Alterações nesta Política</h2>
